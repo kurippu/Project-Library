@@ -1,0 +1,82 @@
+table, th, td{
+
+    border: 2px solid black ;
+    border-collapse: collapse;
+    padding: 8px;
+
+}
+body{
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #C3B1E1;
+}
+.bubble{
+
+    background-color: #FFFAA0;
+    border-radius: 5%;
+    height: 80%;
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding: 5%;
+    
+
+
+
+
+}
+.books{
+    
+    margin-bottom: 10%;
+    font-family:monospace;
+    text-decoration:underline;
+    font-size: 250%;
+
+
+    
+
+
+}
+
+.form{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+
+label{
+
+    gap: 10px;
+    font-size: 170%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#author, #title, #isbn{
+    border: 0px;
+    border-radius: 5%;
+
+
+}
+#submit{
+
+    display: block;
+    margin:20% auto;
+    height: 25%;
+    width: 50%;
+    border-radius: 5%;
+    border: 1px solid white;
+    background-color: #FFB3A0;
+    cursor: pointer;
+}
+
+
+
